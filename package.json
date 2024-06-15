@@ -1,0 +1,22 @@
+{
+  "name": "codespaces-blank",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/esbuild src/index.ts --bundle --outfile=build/out.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ffmpeg/ffmpeg": "^0.12.10",
+    "@ffmpeg/util": "^0.12.1",
+    "ytdl-core": "^4.11.5"
+  },
+  "devDependencies": {
+    "esbuild": "0.21.5",
+    "typescript": "^5.4.5"
+  }
+}
