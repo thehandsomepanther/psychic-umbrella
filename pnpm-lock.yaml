@@ -11,6 +11,9 @@ importers:
       '@ffmpeg/ffmpeg':
         specifier: ^0.12.10
         version: 0.12.10
+      '@ffmpeg/types':
+        specifier: ^0.12.2
+        version: 0.12.2
       '@ffmpeg/util':
         specifier: ^0.12.1
         version: 0.12.1
